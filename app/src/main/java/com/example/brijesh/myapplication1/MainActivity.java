@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity
     private void fun()
     {
         int i=5;
-        int ii=i+10;
+        int ii=i+30;
         Toast.makeText(this,ii,Toast.LENGTH_LONG).show();
     }
 
