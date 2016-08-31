@@ -13,12 +13,13 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this,"Brijesh",Toast.LENGTH_LONG).show();
+        int res=fun();
+        Toast.makeText(this,res,Toast.LENGTH_LONG).show();
     }
-    private void fun()
+    private int fun()
     {
         int i=5;
-        int ii=i+40;
-        Toast.makeText(this,ii,Toast.LENGTH_LONG).show();
+        int ii=i+90;
+       return ii;
     }
-
 }
